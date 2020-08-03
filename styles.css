@@ -1,0 +1,394 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Kulim+Park&display=swap');
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+/* Headers */
+
+header{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-content: center;
+	text-align: center;
+	color: #4DC3FA;
+  background-color: #2C3446;
+	font-family: 'Kulim Park', sans-serif;
+	font-size: 3em;
+  padding: 1em;
+}
+
+h2{
+  font-size: 1.75em;
+  margin-top: 1.75em;
+  margin-left: 2em;
+	margin-right: 2em;
+}
+
+/* Body */
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color:#A7A1AE;
+  background-color:#1F2739;
+}
+
+section{
+	font-size: 2em;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-content: center;
+	text-align: center;
+	padding: 0.0625em;
+}
+
+p{
+	font-size:2em;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-content: center;
+	text-align: center;
+	padding: 0.5em;
+	margin-top: 1em;
+	background-color: #2C3446;
+}
+
+figure{
+	padding-top: 1.5em;
+}
+
+#update{
+  display: flex;
+  flex-direction: column;
+  background-color: #1F2739;
+  justify-content: flex-end;
+  font-size: 1em;
+  margin: 0.5em;
+  margin-top: 0.5em;
+  padding: 0.0625em;
+	border: 0;
+}
+
+#update ul{
+  display: flex;
+  flex-direction: row;
+}
+
+#update li{
+  display: flex;
+  list-style: none;
+  color: black;
+}
+
+#update a{
+  padding: 1em;
+  margin: 0;
+	background-color: #4DC3FA;
+  color: black;
+  font-size: 1.5em;
+  text-decoration: none;
+}
+
+/* Navigation Bars*/
+
+nav{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+	margin: 2em;
+  border: 0.0625em solid white;
+  border-radius: 1em;
+  background-color: white;
+  padding: 1em;
+}
+
+nav ul{
+  display: flex;
+  flex-direction: row;
+	justify-content: space-between;
+}
+nav li{
+  padding: 0.5em;
+	display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+nav a{
+	font-size: 1.75em;
+  color: #4DC3FA;
+  text-decoration: none;
+}
+
+nav a:hover{
+  color: #D2AC47;
+}
+
+#login{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-content: center;
+	text-align: center;
+	background-color:#1F2739;
+	padding-top: 1.5em;
+	border: 0;
+	font-size: 1.5em;
+	margin-bottom: 0;
+}
+
+#login ul{
+  display: flex;
+  flex-direction: row;
+}
+#login li{
+  list-style: none;
+}
+#login a{
+	background-color: #4DC3FA;
+	padding-left: 2em;
+	padding-right: 2em;
+	padding-top: 1.25em;
+	padding-bottom: 1.25em;
+  color: black;
+  text-decoration: none;
+}
+#subs-update{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-content: center;
+	width: 50%;
+	margin-right: 1em;
+}
+
+/* Forms */
+
+#submit{
+	padding: 1.5em;
+	color: #FFF;
+	margin-top: 1.5em;
+	background-color: #1abc9c;
+	font-size: 1em;
+	text-align: center;
+	width: 50%;
+	border: 1px solid #16a085;
+}
+
+#submit:hover{
+  background-color: #0e9e81;
+}
+
+input[type="date"]{
+  width: 50%;
+}
+
+input{
+  background-color: #d2d9dd;
+  border: 0.0625em solid #d2d9dd;
+  border-radius: 1em;
+  padding: 1em;
+	font-size: 1.25em;
+}
+
+select{
+  background-color: #d2d9dd;
+  border: 0.0625em solid #d2d9dd;
+  border-radius: 1em;
+  padding: 1em;
+	margin: 2em;
+	font-size: 1.25em;
+}
+
+select + #submit{
+	padding: 1.5em;
+	color: #FFF;
+	margin-top: 1.5em;
+	margin-right: 1.5em;
+	background-color: #1abc9c;
+	font-size: 1.5em;
+	float: right;
+	border: 1px solid #16a085;
+}
+
+label{
+  padding-top: 1em;
+  padding-bottom: 1em;
+  font-size: 1.5em;
+  font-style: 'Arvo', serif;
+}
+
+#login-form {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-content: center;
+	text-align: center;
+  background-color: #89a4e0;
+  padding: 1.5em;
+  margin-top: 1.5em;
+	margin: 2em;
+  border: 0.0625em solid #89a4e0;
+  border-radius: 1em;
+  color: black;
+  font-size: 1.25em;
+}
+#add{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	margin: 3em;
+}
+
+#add input, select{
+	width: 50%;
+	font-size: 1em;
+}
+
+/* Table */
+table{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-content: center;
+	text-align: center;
+  width: 75%;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+th{
+  background-color: #1F2739;
+  color: #185875;
+  padding: 1em;
+  margin: 1em;
+  font-size: 2em;
+	border: 1px solid black;
+}
+
+td{
+  text-align: left;
+  padding: 1em;
+  margin: 1em;
+	font-size: 2em;
+	border: 1px solid black;
+}
+
+td:hover {
+   background-color: #464A52;
+}
+
+tr:nth-child(odd) {
+	  background-color: #323C50;
+}
+tr:nth-child(even) {
+	  background-color: #2C3446;
+}
+
+#skills-table th{
+	font-size: 1.25em;
+}
+/* Hides columns on small screen*/
+
+@media (max-width: 70em) {
+#skills-table td:nth-child(2),
+#skills-table th:nth-child(2) { display: none; }
+
+#leaders-table td:nth-child(3),
+#leaders-table th:nth-child(3) { display: none; }
+#leaders-table td:nth-child(4),
+#leaders-table th:nth-child(4) { display: none; }
+#leaders-table td:nth-child(5),
+#leaders-table th:nth-child(5) { display: none; }
+#leaders-table td:nth-child(6),
+#leaders-table th:nth-child(6) { display: none; }
+#leaders-table td:nth-child(8),
+#leaders-table th:nth-child(8) { display: none; }
+#leaders-table td:nth-child(9),
+#leaders-table th:nth-child(9) { display: none; }
+
+#scout-table td:nth-child(3),
+#scout-table th:nth-child(3) { display: none; }
+#scout-table td:nth-child(4),
+#scout-table th:nth-child(4) { display: none; }
+#scout-table td:nth-child(5),
+#scout-table th:nth-child(5) { display: none; }
+#scout-table td:nth-child(6),
+#scout-table th:nth-child(6) { display: none; }
+#scout-table td:nth-child(7),
+#scout-table th:nth-child(7) { display: none; }
+#scout-table td:nth-child(8),
+#scout-table th:nth-child(8) { display: none; }
+#scout-table td:nth-child(9),
+#scout-table th:nth-child(9) { display: none; }
+}
+
+@media screen and (min-width: 70em){
+				header{
+					flex-direction: row;
+					align-content: left;
+					text-align: left;
+					font-size: 2em;
+				}
+				h2{
+					text-align: left;
+				}
+				section > h2, section >  p{
+					float: left;
+					flex-direction: row;
+					font-size: 1em;
+					text-align: left;
+					padding: 0.0625em;
+				}
+				p{
+					margin: 1em;
+					padding: 0.5em;
+				}
+				figure{
+					padding-top: 0.25em;
+				}
+				#login{
+					float: right;
+					flex-direction: row;
+					align-content: right;
+					text-align: right;
+					font-size: 0.75em;
+				}
+				#update{
+					flex-direction: row;
+				}
+				table {
+					margin: 0 1em;
+
+				}
+				th{
+					font-size: 1em;
+				}
+				td{
+
+					font-size: 1em;
+				}
+				select + #submit{
+					float: none;
+					padding: 0.75em;
+					margin-left: 0.5em;
+					width: 25%;
+				}
+				#skills-table th{
+					font-size: 1.5em;
+				}
+				#skills-table td{
+					font-size: 1.5em;
+				}
+				#skills-update{
+					display: flex;
+					flex-direction: column;
+					text-align: center;
+					align-content: center;
+					width: 50%;
+				}
+}
